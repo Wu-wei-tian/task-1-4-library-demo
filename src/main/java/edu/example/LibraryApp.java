@@ -2,6 +2,7 @@ package edu.example;
 
 public class LibraryApp {
     public static void main(String[] args) {
-        System.out.println("Library management demo");
+        Book book = new Book("Clean Code", "Robert C. Martin");
+        System.out.println("Library book: " + book.description());
     }
 }
